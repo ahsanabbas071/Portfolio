@@ -1,0 +1,95 @@
+body {
+    margin: 0 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E2D1F9;
+    color: #317773;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #317773;
+}
+
+header .logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+
+    font-weight: bolder;
+}
+
+header nav .navbar li {
+    list-style-type: none;
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+
+}
+
+header nav .navbar {
+    display: flex;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .introduction {
+    font-size: 3rem;
+}
+
+main .job-description {
+    font-size: 2rem;
+}
+
+main .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+button {
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #317773;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #317773;
+    margin-right: 1rem;
+    background-color: #317773;
+    color: #E2D1F9;
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+    transition: font-size;
+}
+
+
+button:hover {
+    color: #317773;
+    background-color: #E2D1F9;
+}
+
+button:active {
+    color: #317773;
+    background-color: #E2D1F9;
+    box-shadow: 0 0;
+    font-size: 1.2rem;
+}
